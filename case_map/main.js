@@ -32,10 +32,10 @@ var baseLayer = new ol.layer.Tile({
 });
 
 var dataLayer = new ol.layer.Vector({
-  source: new ol.source.Vector ({
-url:'../deta.json',
-format:new ol.format.GeoJSON()
-})
+  source: new ol.source.Vector({
+    url:'../deta.json',
+    format:new ol.format.GeoJSON()
+  })
 });
 
 var map = new ol.Map({
